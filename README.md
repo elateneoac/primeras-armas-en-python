@@ -6,7 +6,7 @@ Antes que nada va el agradecimiento a [python-unsam](https://github.com/python-u
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />Este obra está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/deed.es">licencia de Creative Commons Reconocimiento-CompartirIgual 4.0 Internacional</a>.
 
 ## 1. Intro
-'*Primeras armas en Python*' es un curso que está pensado como parte de las capacitaciones que ofrecemos desde el **Laboratorio de Datos** del [Ateneo Asociación Civil](https://elateneo.org.ar/) 🤖, y apunta que cualquiera aprenda a escribir código en Python **sin llorar en el intento**.
+'*Primeras armas en Python*' es un curso que está pensado como parte de las capacitaciones que ofrecemos desde el **Laboratorio de Datos** del [Ateneo Asociación Civil](https://elateneo.org.ar/) 🤖, y apunta que cualquiera aprenda a escribir código en Python **sin querer morir en el intento**.
 
 Este repo es el contenido del curso.
 

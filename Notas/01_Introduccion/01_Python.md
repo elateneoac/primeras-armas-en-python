@@ -1,20 +1,18 @@
 [Contenidos](../Contenidos.md) \| [Próximo (2 Un primer programa)](02_Hello_world.md)
 
-# 1.1 Python
+# 1.1 ¿Qué es Python?
 
-### ¿Qué es Python?
+Python fue creado con la idea de que escribir código sea algo ameno: es un lenguaje __sencillo__, "__minimalista__" (pocas palabras) y es **interpretado**. Qué quiere decir '*interpetado*'? hay algo llamado **intérprete** que se encarga de ejecutar el código. **R** también es un lenguaje **interpretado**. Para abrir el **intérprete** , desde un consola de comandos escribimos y ejecutamos `python` (o `python3`):
 
-Python es un lenguaje interpretado de alto nivel. Frecuentemente se lo clasifica como lenguaje de ["scripting"](https://es.wikipedia.org/wiki/Script). La sintaxis del Python tiene elementos de lenguaje C de programación.
+```
+$ python3
+Python 3.8.11 (default, Jan 26 2021, 15:33:00) 
+[GCC 8.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+```
 
-Python fue creado por Guido van Rossum a principios de la década del '90 y lo nombró así en honor de  Monty Python.
-
-### ¿Dónde conseguir Python?
-
-Te recomendamos instalar Python 3.6 o más nuevo. En la documentación previa  hablamos sobre [cómo instalar Python para este curso](../../Notas/Instalacion.md).
-
-### ¿Para qué fue creado Python?
-
-El objetivo original de su autor fue crear un lenguaje de programación con el que pudiera realizar las tareas de administración de un sistema fácilmente. En algún sentido los scripts de la terminal no eran suficientemente poderosos y programar esas tareas en C resultaba demasiado tedioso. Python fue creado para llenar ese hueco en el medio.
+Detalle pintoresco: *Python fue creado por Guido van Rossum a principios de la década del '90 y lo nombró así en honor de Monty Python.*
 
 ### ¿Cómo ejecuto Python en mi máquina?
 
@@ -32,32 +30,32 @@ hello world
 
 Si es la primera vez que ves una consola o terminal, sería conveniente que pares aquí, leas [un tutorial corto](https://tutorial.djangogirls.org/es/intro_to_command_line/) sobre cómo usar la consola de tu sistema operativo y luego vuelvas para seguir leyendo.
 
-Existen diversos entornos fuera de la terminal en los que se puede escribir y ejecutar código Python. Pero para nosotros es importante que primero aprendas a usarlo desde la terminal: si lo sabés usar bien desde la terminal (que es su entorno natural) lo podrás usar en cualquier otro entorno. Ya en la próxima clase usarás Python dentro de un entorno de desarrollo. Por ahora, te recomendamos usarlo de esta manera que  acabamos de explicar.
+Existen diversos entornos fuera de la terminal en los que se puede escribir y ejecutar código Python. Pero primero es importante aprender a usarlo desde la terminal: si lo sabés usar bien desde la terminal (que es su entorno natural) lo podrás usar en cualquier otro entorno. Ya en la próxima clase usarás Python dentro de un entorno de desarrollo. Por ahora, te recomendamos usarlo de esta manera que  acabamos de explicar.
 
-## Ejercicios
+## Ejemplos
 
-### Ejercicio 1.1: Python como  calculadora
+### 1.1: Python como  calculadora
 En tu máquina, iniciá Python y usalo como calculadora para resolver el siguiente problema:
 
-* ¿Cuántas horas son 105 minutos?
-* ¿Cuántos kilómetros son 20 millas? (un kilómetro corresponde a 0,6214 millas)
-
-
-
+* ¿Cuántos es **12345 / 6789**?
 ```python
->>> 105/60
-1.75
->>> 20 / 0.6214
-32.1853878339234
+>>> 12345/6789
+1.8183826778612462
 ```
 
-tip: Usá el guión bajo (underscore, \_) para referirte al resultado del último cálculo.
+* ¿Cuántas **facturas** son **7 docenas**?
+```python
+>>> 12*7
+84
+```
 
-* Si alguien corre una carrera de 20 millas en 105 minutos, ¿cuál fue tu velocidad promedio en km/h?
+tip: Usá el guión bajo ('\_') para referirte al resultado del último cálculo.
+
+* ¿Cúanto es **7 docenas * 2**?
 
 ```python
->>> _/1.75
-18.391650190813372
+>>> _/2
+168
 ```
 
 ### Ejercicio 1.2: Obtener ayuda
@@ -94,8 +92,6 @@ Usá copy-paste para ejecutar los siguientes comandos:
 ```
 
 Advertencia: Cuando tenés algo como el código de arriba, no es posible copiar y pegar en el entorno básico de Python más de un comando por vez. El símbolo `>>>` lo impide.
-
-
 
 [Contenidos](../Contenidos.md) \| [Próximo (2 Un primer programa)](02_Hello_world.md)
 
