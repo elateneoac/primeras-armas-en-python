@@ -34,7 +34,13 @@ No sabemos. En principio unos **5 encuentros** de 1, 1.5 hs. Se puede extender. 
 
 ## 6. ¿Qué necesito?
 
-1. [python 3.8.11](https://www.python.org/downloads/release/python-3811/): la versión no es por nada en particular, sino para todxs tener la misma
+1. [python](https://www.python.org/downloads/): la última versión disponible va a estar bien.
+
+    1.1. Para windows, bajar el instalador y tener en cuenta:
+
+    - en la primer pantalla: **tildar** *"Add Python 3.9 to PATH"*
+    - en la última pantalla antes de salir del instalador: clickear opción *"Disable MAX_LENGTH limitation"* (algo así) 
+
 2. [vs code](https://code.visualstudio.com/): para desarrollar en lenguajes modernos es una gran herramienta
 
 ## 7. ¿Hay certificado?
