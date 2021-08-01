@@ -26,7 +26,7 @@ Para todo el que quiera empezar a *escribir código*.
 
 - 💡 tips útiles
 
-## 4. Sincrónico o asincrónico?
+## 4. ¿Sincrónico o asincrónico?
 Por ahora todo sincrónico. El material de este curso está siempre disponible y abierto.
 
 ## 5. ¿Cúanto dura?
@@ -48,6 +48,3 @@ No sabemos. En principio unos **5 encuentros** de 1, 1.5 hs. Se puede extender. 
 
 ## 8. ¿Me puedo copiar el curso?
 Tal como nosotros hicimos con ['Programación en Python'](https://github.com/python-unsam/Programacion_en_Python_UNSAM) de la gente de [UNSAM](https://github.com/python-unsam), cualquiera puede hacer lo que quiera con este curso **SIEMPRE Y CUANDO** respete: 1) *citar y reconocer este repo* y 2) *usar la misma [licencia](http://creativecommons.org/licenses/by-sa/4.0/deed.es)*.
-
-## 9. ¿Hay tarea?
-La verdad que no. La idea es tirar ideas para que si tienen ganas y tiempo puedan practicar. Sin compromiso.
