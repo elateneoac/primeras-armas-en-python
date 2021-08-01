@@ -13,10 +13,10 @@ Para usar *Python* felizmente desde *vs code*, tenemos que instalar el siguiente
 
 Para instalar el plugin desde *vs code*:
 
-- click En la opción de *Extensions*
+- click en botón de *Extensions*
 
 ![boton-extensiones](./imagenes/boton-extensiones.png)
-- escribir `Python` en el cuadro de texto y darle click en "*Install*", epserar unos segundos que instale y listo ✅.
+- escribir `Python` en el cuadro de texto y darle click en "*Install*", esperar unos segundos que instale y listo ✅.
 
 ![python-plugin](./imagenes/python-plugin.png)
 
@@ -41,15 +41,15 @@ Para esto (previo haber instalado el plugin de la sección 1) sólo tenemos que:
 
 ![otro-saludito](./imagenes/otro-saludito.png)
 
-4. para seleccionar una línea entera, ponemos el -*cursor del*- mouse en la línea que queramos ejecutar, y apretamos de nuevo el buen `shit + enter`:
+4. para ejecutar una línea entera, ponemos el -*cursor del*- mouse en la línea que queramos ejecutar, y apretamos de nuevo el buen `shit + enter`:
 
 ![saludito-y-otro-saludito](./imagenes/saludito-y-otro-saludito.png)
 
-5. para cerrar el intérprete, escribimos `exit()` y le damos `enter`: se cierra el intérprete y nos devuelve a la terminal de comandos del sistema operativo (en este ejemplo de la terminal de *Linux*).
+5. para cerrar el intérprete, escribimos `exit()` y le damos `enter`: se cierra el intérprete y nos devuelve a la terminal de comandos del sistema operativo (en este ejemplo la terminal de *Ubuntu*).
 
 ![interprete-cerrado](./imagenes/interprete-cerrado.png)
 
-### 2.1. 💡 ***TIP*** 💡
+### 2.1. 💡 ***TIP*** 💡 para cuando la ejecución se pone ***LENTA***
 Puede pasar que después de ejecutar bastante código, la ejecución se ponga lenta. Para descomprimir la memoria del intérprete, importamos la librería `os` y limpiamos la consola con `os.system("clear")`:
 
 ![limpiar-interprete](./imagenes/limpiar-interprete.png)
