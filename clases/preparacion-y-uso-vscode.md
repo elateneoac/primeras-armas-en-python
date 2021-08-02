@@ -49,7 +49,7 @@ Para esto (previo haber instalado el plugin de la sección 1) sólo tenemos que:
 
 ![interprete-cerrado](./imagenes/interprete-cerrado.png)
 
-### 2.1. 💡 ***TIP*** 💡 para cuando la ejecución se pone ***LENTA***
+### 💡 ***TIP 2.1.*** 💡 para cuando la ejecución se pone ***LENTA***
 Puede pasar que después de ejecutar bastante código, la ejecución se ponga lenta. Para descomprimir la memoria del intérprete, importamos la librería `os` y limpiamos la consola con `os.system("clear")`:
 
 ![limpiar-interprete](./imagenes/limpiar-interprete.png)
@@ -59,3 +59,26 @@ y nos queda así:
 ![interprete-limpio](./imagenes/interprete-limpio.png)
 
 si antes cuando escribían tardaba en responder, prueben ahora a ver si responde bien.
+
+### 💡 ***TIP 2.2.*** 💡 ayuda y autocompletado: `ctrl + espacio`
+Una de las grandes ventajas de un **IDE** (*vs code* es un *IDE*, un '*entorno de desarrollo*') es la **ayuda** y el **autocompletado**: en general *vs code* muestra una lista de posibles opciones para completar la línea de código.
+
+Presionando `ctrl + espacio` o incluso **automaticamente al escribir**-, *vs code* ofrece:
+
+- **lista de variables** en uso que coinciden con el mismo nombre:
+
+![sugerencia-autocompletado](./imagenes/sugerencia-autocompletado.png)
+
+- **métodos disponibles** -*del objeto que está*- en la variable (en este caso, objeto en la variable `'saludito'` es un `String`, entonces me muestra los métodos de `String`):
+
+![sugerencia-metodos](./imagenes/sugerencia-metodos.png)
+
+- **métodos disponibles** que coinciden con lo que está escrito:
+
+![sugerencia-metodos-autocompletado](./imagenes/sugerencia-metodos-autocompletado.png)
+
+- **ayuda** de los métodos disponibles:
+
+![sugerencia-ayuda-metodo](./imagenes/sugerencia-ayuda-metodo.png)
+
+Estas son las principales opciones de **ayuda** y **autocompletado**. Son los más usados, y pueden servir como un puntapié para más opciones: **snippets** (pedazos de código comunes), **snippets personalizados**, **acciones de código** (`ctrl + .`), y más.
