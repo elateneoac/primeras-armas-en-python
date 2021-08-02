@@ -1,4 +1,4 @@
-# Clases del curso 👍
+# Clases del curso 📑
 En esta carpeta están todas las clases del curso. Cada una tiene:
 
 - un breve resumen sobre los temas que se tocan, y
