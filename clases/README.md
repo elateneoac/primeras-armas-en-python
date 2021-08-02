@@ -8,7 +8,7 @@ En esta carpeta están todas las clases del curso. Cada una tiene:
 En esta notas van detalles de **qué** necesitamos instalar en *vs code*, y **cómo** vamos a usar *Python* desde *vs code*.
 
 ## 0. Tener instalado *Python* y *vs code*
-Antes que anda hay que tener instalado Python. Chequear [README.md -> 6. ¿Qué necesito?](../README.md)
+Antes que anda hay que tener instalado Python. Chequear [README.md -> 6. ¿Qué necesito?](../README.md#6-qué-necesito)
 
 ## 1. ¿Qué tenemos que instalar en *vs code*?
 Para usar *Python* felizmente desde *vs code*, tenemos que instalar el siguiente plugin:
