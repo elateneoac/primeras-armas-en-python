@@ -41,7 +41,7 @@ Para esto (previo haber instalado el plugin de la sección 1) sólo tenemos que:
 
 ![saludito](./imagenes/saludito.png)
 
-*en la imagén vemos que abajo se abre otra ventana con un intérprete. Tal cual como en *RStudio*.*
+*en la imagén vemos que abajo se abre otra ventana con un intérprete. Tal cual *RStudio*.*
 
 3. ahora ya con -un intérprete de- *Python* asociado, la próxima vez que hagamos lo mismo, se vuelve a ejecutar en el mismo interprete:
 
@@ -67,9 +67,9 @@ y nos queda así:
 si antes cuando escribían tardaba en responder, prueben ahora a ver si responde bien.
 
 ### 💡 ***TIP 2.2.*** 💡 ayuda y autocompletado: `ctrl + espacio`
-Una de las grandes ventajas de un **IDE** (*vs code* es un *IDE*, un '*entorno de desarrollo*') es la **ayuda** y el **autocompletado**: en general *vs code* muestra una lista de posibles opciones para completar la línea de código.
+Una de las grandes ventajas de un **IDE** (*vs code* es un *IDE*, un '*entorno integrado de desarrollo*') es la **ayuda** y el **autocompletado**: en general *vs code* muestra una lista de posibles opciones para completar la línea de código.
 
-Presionando `ctrl + espacio` o incluso **automaticamente al escribir**-, *vs code* ofrece:
+Presionando `ctrl + espacio` -o incluso **automaticamente al escribir**-, *vs code* ofrece:
 
 - **lista de variables** en uso que coinciden con el mismo nombre:
 
