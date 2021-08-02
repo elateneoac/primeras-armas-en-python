@@ -12,7 +12,7 @@ docena # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 paises # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay']
 popurri # [2021, 'Argentina', 'Agosto', 3.14]
 
-# 3.2.1. acceder a los elementos:
+# 3.2. acceder a los elementos:
 # ANTES QUE NADA: en casi todos los lenguajes:
 # EL PRIMER ELEMENTO ESTÁ EN LA POSICIÓN CERO. Esto es diferente a R,
 # donde el primer elemento está en la posición 1.
@@ -38,31 +38,31 @@ paises[2:4] # ['Chile', 'Bolivia']
 paises[1:-1] # ['Uruguay', 'Chile', 'Bolivia']
 
 
-# 3.2. operaciones
+# 3.3. operaciones
 # en las listas operar con variables de cualquier tipo.
 
-# 3.2.1. [i]=: reemplazar elemento en la posición 'i'.
+# [i]=: reemplazar elemento en la posición 'i'.
 popurri[-1] = 'Sábado' # reemplazo el último elemento por 'Sábado'
 popurri # [2021, 'Argentina', 'Agosto', 'Sábado']
 
-# 3.2.1 +: concatenar dos listas
+# +: concatenar dos listas
 paises_y_docena = paises + docena
 paises_y_docena # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 
-# 3.2.2. append(): agregar un nuevo elemento.
+# append(): agregar un nuevo elemento.
 popurri.append('Soleado')
 popurri # [2021, 'Argentina', 'Agosto', 'Sábado', 'Soleado']
 
-# 3.2.2. insert(): agregar un nuevo elemento en una determinada posición.
+# insert(): agregar un nuevo elemento en una determinada posición.
 popurri.insert(0, 'Nublado') # agrego 'Colombia' primero (posición cero)
 popurri.insert(-1, 1900) # agrego 'Ecuador' anteúltimo
 popurri # ['Nublado', 2021, 'Argentina', 'Agosto', 'Sábado', 1900, 'Soleado']
 
-# 3.2.2. index(): posición de un elemento
+# index(): posición de un elemento
 paises.index('Chile') # 2
 paises.index('Córdoba') # ValueError: 'Córdoba' is not in list
 
-# 3.2.2. remove(), del: borrar elemento
+# remove(), del: borrar elemento
 # Al borrar un elemento no se genera un hueco.
 # Los siguientes elementos se moverán para llenar el vacío.
 # Si hubiera más de una aparición de un valor, 'remove()' sólo saca la primera aparición.
@@ -72,29 +72,29 @@ del popurri[1] # elimino el segundo
 del popurri[99] # IndexError: list assignment index out of range
 popurri # ['Nublado', 'Argentina', 'Agosto', 1900, 'Soleado']
 
-# 3.2.2. len(): cantidad de elementos
+# len(): cantidad de elementos
 len(paises) # 5
 
-# 3.2.2. in, not in: chequear si un elemento 'está' o 'no está'
+# in, not in: chequear si un elemento 'está' o 'no está'
 'Argentina' in paises # True
 'Canada' in paises # False
 'México' not in paises # True
 
-# 3.2.2. *: repetir una lista
+# *: repetir una lista
 paises * 2 # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay', 'Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay']
 
 
-# 3.3. recorrer -o iterar- las listas
+# 3.4. recorrer -o iterar- las listas
 # Siguiendo la sintaxis simplistas para acceder a las listas,
 # Python tiene una sintaxis práctica y minimalista para iterar lista:
 
-# 3.3.1. recorrer estilo tradicional
+# 3.4.1. recorrer estilo tradicional
 paises_iterados_con_for = []
 for pais in paises:
     paises_iterados_con_for.append(pais)
 paises_iterados_con_for # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay']
 
-# # 3.3.1. recorrer estilo tradicional con while:
+# 3.4.2. recorrer estilo tradicional con while:
 # lo mismo de arriba pero usando 'while'
 paises_iterados_con_while = []
 i = 0
@@ -104,7 +104,7 @@ while i < len(paises):
     i += 1
 paises_iterados_con_while # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay']
 
-# 3.3.1. recorrer estilo python
+# 3.4.3. recorrer estilo python
 # esta forma es la más pythonista de todas: en una sola línea podes:
 # - iterar
 # - filtrar
@@ -114,7 +114,7 @@ paises_iterados_con_while # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paragu
 paises_iterados_con_for_pythonista = [pais for pais in paises]
 paises_iterados_con_for_pythonista # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay']
 
-# 3.3.1. iterar, filtrar y modificar: hacer lo mismo en las 3 versiones.
+# 3.4.4. iterar, filtrar y modificar: hacer lo mismo en las 3 versiones.
 
 # estilo tradi con for
 paises_iterados_con_for = []
