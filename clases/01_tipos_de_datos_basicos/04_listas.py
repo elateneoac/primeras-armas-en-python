@@ -104,7 +104,7 @@ while i < len(paises):
     i += 1
 paises_iterados_con_while # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay']
 
-# 3.4.3. recorrer estilo python
+# 3.4.3. recorrer estilo pythonista
 # esta forma es la más pythonista de todas: en una sola línea podes:
 # - iterar
 # - filtrar
@@ -141,8 +141,13 @@ paises_iterados_con_while # ['ARGENTINA', 'URUGUAY', 'BOLIVIA', 'PARAGUAY']
 paises_iterados_con_while = [pais.upper() for pais in paises if 'a' in pais]
 paises_iterados_con_while # ['ARGENTINA', 'URUGUAY', 'BOLIVIA', 'PARAGUAY']
 
+# COMENTARIO 1
 # cada uno de los 3 estilos tienen sus pro y sus contras.
 # la recomendación es que intenten siempre primero con el 'estilo pythonista',
-# y si con ese no sale, vayan con el 'estilo tradi con for'. En la práctica,
+# y si con ese no se puede, vayan con el 'estilo tradi con for'. En la práctica,
 # este último es el que más se usa porque soluciona casi cualquier tipo de iteración,
 # sin perder calidad en el código.
+
+# COMENTARIO 2
+# el estilo pythonista, está pensado especifcamente para CREAR NUEVAS listas a partir de una existente,
+# a diferencia de los estilos tradicionales.
