@@ -1,4 +1,4 @@
-# 2.1. booleanos
+# booleanos
 # el tipo 'booleano' solo puede tomar dos valores: 'True' o 'False' (siempre con mayúscula):
 verdadero = True
 falso = False

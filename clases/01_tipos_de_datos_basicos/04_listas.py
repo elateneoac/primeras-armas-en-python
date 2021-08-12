@@ -1,8 +1,8 @@
-# 3. listas
+# listas
 # las listas son un tipo de dato que sirven para guardar colecciones ordenadas,
 # es decir, que cada elemento tiene una posición según un criterio.
 
-# 3.1. creando una lista
+# creando una lista
 # para crear una variable tipo 'lista' usamos los corchetes []
 docena = [1,2,3,4,5,6,7,8,9,10,11,12]
 paises = ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay']
@@ -12,7 +12,7 @@ docena # [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 paises # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay']
 popurri # [2021, 'Argentina', 'Agosto', 3.14]
 
-# 3.2. acceder a los elementos:
+# acceder a los elementos:
 # ANTES QUE NADA: en casi todos los lenguajes:
 # EL PRIMER ELEMENTO ESTÁ EN LA POSICIÓN CERO. Esto es diferente a R,
 # donde el primer elemento está en la posición 1.
@@ -38,7 +38,7 @@ paises[2:4] # ['Chile', 'Bolivia']
 paises[1:-1] # ['Uruguay', 'Chile', 'Bolivia']
 
 
-# 3.3. operaciones
+# operaciones
 # en las listas operar con variables de cualquier tipo.
 
 # [i]=: reemplazar elemento en la posición 'i'.
@@ -82,72 +82,3 @@ len(paises) # 5
 
 # *: repetir una lista
 paises * 2 # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay', 'Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay']
-
-
-# 3.4. recorrer -o iterar- las listas
-# Siguiendo la sintaxis simplistas para acceder a las listas,
-# Python tiene una sintaxis práctica y minimalista para iterar lista:
-
-# 3.4.1. recorrer estilo tradicional
-paises_iterados_con_for = []
-for pais in paises:
-    paises_iterados_con_for.append(pais)
-paises_iterados_con_for # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay']
-
-# 3.4.2. recorrer estilo tradicional con while:
-# lo mismo de arriba pero usando 'while'
-paises_iterados_con_while = []
-i = 0
-while i < len(paises):
-    pais = paises[i]
-    paises_iterados_con_while.append(pais)
-    i += 1
-paises_iterados_con_while # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay']
-
-# 3.4.3. recorrer estilo pythonista
-# esta forma es la más pythonista de todas: en una sola línea podes:
-# - iterar
-# - filtrar
-# - operar
-# - iterar anidadamente (for dentro de un for)
-# - guardar resultado en una nueva lista
-paises_iterados_con_for_pythonista = [pais for pais in paises]
-paises_iterados_con_for_pythonista # ['Argentina', 'Uruguay', 'Chile', 'Bolivia', 'Paraguay']
-
-# 3.4.4. iterar, filtrar y modificar: hacer lo mismo en las 3 versiones.
-
-# estilo tradi con for
-paises_iterados_con_for = []
-for pais in paises:
-    if 'a' not in pais:
-        continue # si el pais no contiene la letra 'a', entonces no lo guardo.
-    paises_iterados_con_for.append(pais.upper()) # lo guardo en mayúscula
-paises_iterados_con_for # ['ARGENTINA', 'URUGUAY', 'BOLIVIA', 'PARAGUAY']
-
-# estilo tradi con while
-paises_iterados_con_while = []
-i = 0
-while i < len(paises):
-    pais = paises[i]
-    if 'a' not in pais:
-        i += 1 # tengo que avanzar de paso aca porque después de 'continue' se vuelve al principio
-        continue # si el pais no contiene la letra 'a', entonces no lo guardo.
-    paises_iterados_con_while.append(pais.upper()) # lo guardo en mayúscula
-    i += 1
-
-paises_iterados_con_while # ['ARGENTINA', 'URUGUAY', 'BOLIVIA', 'PARAGUAY']
-
-# estilo pythonista
-paises_iterados_con_while = [pais.upper() for pais in paises if 'a' in pais]
-paises_iterados_con_while # ['ARGENTINA', 'URUGUAY', 'BOLIVIA', 'PARAGUAY']
-
-# COMENTARIO 1
-# cada uno de los 3 estilos tienen sus pro y sus contras.
-# la recomendación es que intenten siempre primero con el 'estilo pythonista',
-# y si con ese no se puede, vayan con el 'estilo tradi con for'. En la práctica,
-# este último es el que más se usa porque soluciona casi cualquier tipo de iteración,
-# sin perder calidad en el código.
-
-# COMENTARIO 2
-# el estilo pythonista, está pensado especifcamente para CREAR NUEVAS listas a partir de una existente,
-# a diferencia de los estilos tradicionales.
